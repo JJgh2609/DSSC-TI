@@ -1,0 +1,48 @@
+body {
+    background-color: #0a2540;
+    font-family: "Arial black", sans-serif;
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.525);
+    transition: transform 0.2s;
+}
+imagen-protegida img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: block;
+    margin: 8px auto;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    color: #d1d5db;
+    margin-top: 10px;
+}
+h3 {
+    color: #9ca3af;
+    margin-top: 20px;
+}
+h4 {
+    color: #6b7280;
+    margin-top: 10px;
+}
+.cierre-profesional {
+    font-size: 13px;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background: #0a2540;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
