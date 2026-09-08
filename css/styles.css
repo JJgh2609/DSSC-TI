@@ -16,7 +16,10 @@ imagen-protegida img {
     justify-content: center;
     align-items: center;
 }
-.logo {
+.imagen-protegida img {
+    display: block;
+    max-width: 100%;
+}.logo {
     display: block;
     margin: 8px auto;
 }
@@ -30,11 +33,11 @@ h2 {
     margin-top: 10px;
 }
 h3 {
-    color: #9ca3af;
+    color: #d1d5db;
     margin-top: 20px;
 }
 h4 {
-    color: #6b7280;
+    color: #d1d5db;
     margin-top: 10px;
 }
 .cierre-profesional {
